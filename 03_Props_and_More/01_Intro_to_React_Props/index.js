@@ -1,4 +1,5 @@
 class App extends React.Component {
+	cc;
 	render() {
 		return (
 			<React.Fragment>

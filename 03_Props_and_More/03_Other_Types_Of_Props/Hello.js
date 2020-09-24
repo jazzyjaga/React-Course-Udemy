@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-
-class Hello extends Component {
+class Hello extends React.Component {
 	render() {
-		console.log('Props: %s', JSON.stringify(props, null, 4));
+		let bangs = '!'.repeat(this.props.bangs);
 		return (
 			<React.Fragment>
 				<p>
-					Hi {this.props.to} from {this.props.from}
+					Hi {this.props.to} from {this.props.from} {bangs}
 				</p>
 				<img src={this.props.img} />
 			</React.Fragment>

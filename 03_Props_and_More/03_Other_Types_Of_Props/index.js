@@ -1,14 +1,14 @@
 class App extends React.Component {
 	render() {
 		return (
-			<Hello
-				from="Jagadish"
-				to="Shubakar"
-				img="https://unsplash.com/photos/5JcdQfzR_YA"
-				num={3}
-				arr={[ 1, 2, 3, 4, 5 ]}
-				dict={{ 1: 2, 3: 4, 5: 6, RVR: 'JC' }}
-			/>
+			<React.Fragment>
+				<Hello
+					to="Jagadish"
+					from="Ajazuddin"
+					bangs={5}
+					img="https://images.unsplash.com/photo-1582653291997-079a1c04e5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+				/>
+			</React.Fragment>
 		);
 	}
 }
