@@ -1,0 +1,14 @@
+.Machine {
+    background-color: lightsteelblue;
+    border: 2px solid black;
+}
+
+.win {
+    color: white;
+    background-color: darkgreen;
+}
+
+.lose {
+    color: white;
+    background-color: darkred;
+}
