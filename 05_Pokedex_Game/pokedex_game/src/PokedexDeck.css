@@ -1,0 +1,16 @@
+.PokedexDeck {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+.Border {
+    margin: 2% auto;
+}

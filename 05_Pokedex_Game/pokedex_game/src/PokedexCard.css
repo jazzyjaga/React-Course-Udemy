@@ -1,0 +1,9 @@
+.PokedexCard {
+    border: 2px solid black;
+    box-shadow: 7px 7px 3px -2px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    text-align: center;
+    width: 18%;
+    padding-bottom: 1em;
+}
+
